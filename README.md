@@ -3,7 +3,9 @@
 Node api using express, mongo, and docker volume container to persist data when container is destroyed or re-created
 
 ### Run Command
+```
 docker-compose up
+```
 
 ### To run manually:
 
