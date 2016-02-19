@@ -7,6 +7,14 @@ Node api using express, mongo, and docker volume container to persist data when 
 docker-compose up
 ```
 
+### Add some Users
+```
+curl -s -H "Content-Type: application/json" -X POST -d '{"name":"Test Tester", "age":"25"}' http://192.168.99.100/user
+```
+```
+curl -s -H "Content-Type: application/json" -X POST -d '{"name":"Testing Tester", "age":"22"}' http://192.168.99.100/user
+```
+
 ### To run manually:
 
 Create the data container
