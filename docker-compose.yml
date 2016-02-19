@@ -15,8 +15,6 @@ services:
   web-api:
     build:
       context: .
-      args:
-        http_proxy: http://dncritch:ksimons2@proxy.ihc.com:8080
     container_name: web-api
     depends_on:
       - mongo-data
